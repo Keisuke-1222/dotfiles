@@ -257,6 +257,12 @@ nnoremap so <C-w>_<C-w>|
 """"""""""""""""""""""""""""""
 inoremap <silent> jj <ESC>
 
+""""""""""""""""""""""""""""""
+" 文字コードをutf-8に指定
+""""""""""""""""""""""""""""""
+set encoding=utf-8
+set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
+
 " 日本語入力で”っj”と入力してもEnterキーで確定させればインサートモードを抜ける
 inoremap <silent> っj <ESC>
 
